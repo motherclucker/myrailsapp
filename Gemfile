@@ -4,6 +4,8 @@ ruby '2.1.2'
 gem 'rails', '4.1.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'devise'
+
 # Use sqlite3 as the database for DEV/TEST and postgreSQL for PRODUCTION ON HEROKU
 group :development, :test do
   gem 'sqlite3'
