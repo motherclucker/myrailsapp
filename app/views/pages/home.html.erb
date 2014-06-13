@@ -1,8 +1,13 @@
-<h1>Welcome to About Page!</h1>
-<h2>Pages#home</h2>
+<div class="hero-unit">
+	<h1>Welcome to the home page!</h1>
+	<p>
+		youve found the homepage for the
+		<%= link_to "example", "http://www.example.com" %>
+		application.
+	</p>
+	<p> 
+		<%= link_to "Sign Up Now!", "new_user_registration_path", class: "btn btn-primary btn-large" %>
+	</p>
 
-<p> 
-<%= link_to "Sign Up Here!", "#" %>
-</p>
-
-<p>Find me in app/views/pages/home.html.erb</p>
+	<p>Find me in app/views/pages/home.html.erb</p>
+</div>
